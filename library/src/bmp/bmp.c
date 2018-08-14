@@ -266,7 +266,7 @@ int rc_bmp_read(rc_bmp_data_t* data)
 }
 
 
-int rc_set_sea_level_pressure_pa(double pa)
+int rc_bmp_set_sea_level_pressure_pa(double pa)
 {
 	// sanity checks
 	if(rc_bmp280_init_flag==0){
